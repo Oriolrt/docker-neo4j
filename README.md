@@ -1,7 +1,7 @@
 # Neo4J
 Neo4J server from the official docker image, release 4.2. This container adds an additional layer where a ssh server is enabled and an user *student* with password *student* is created.
 
-It also includes the [GDS](https://neo4j.com/docs/graph-data-science/current/) and [APOC](https://neo4j.com/labs/apoc/4.1/) libraries
+It also includes the [GDS (release 1.4)](https://neo4j.com/docs/graph-data-science/1.4/) and [APOC (release 4.1)](https://neo4j.com/labs/apoc/4.1/) libraries
 
 Below, the commands used to run this image. Please, see the official [site](https://hub.docker.com/_/neo4j) for all possible ways to run this image. 
  
