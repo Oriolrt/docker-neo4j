@@ -1,4 +1,4 @@
-FROM neo4j  
+FROM neo4j:4.2  
 MAINTAINER Oriol Ramos Terrades <oriol.ramos@uab.cat>
 
 RUN apt-get update && \
@@ -23,4 +23,4 @@ EXPOSE 7474
 EXPOSE 7687
 EXPOSE 22
 
-ENTRYPOINT "/entrypoint.sh"
+#ENTRYPOINT "/entrypoint.sh"
